@@ -1,14 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+    table{
+        /* display: flex; */
+        margin-left: 300px;
+        margin-top: 100px;
+    }
+        table,
+        tr,
+        th,
+        td {
+            border-collapse: collapse;
+            border: 2px solid black;
+            padding: 8px 45px;
+            /* text-align: center; */
+            align-items: center;
+        }
+        table caption{
+            margin-bottom: 15px;
+            font-weight: 700;
+            font-size: 20px;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div>
+        <table>
+            <thead>
+                <caption>Round 19 Student Marks</caption>
+                <tr>
+                    <th rowspan="2">ID</th>
+                    <th rowspan="2">Name</th>
+                    <th rowspan="2">Round</th>
+                    <th colspan="2">Mark</th>
+                </tr>
+                <tr>
+                    <th>MCQ</th>
+                    <th>Desc</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1285563</td>
+                    <td>Shakib Al Hassan</td>
+                    <td>62</td>
+                    <td>65</td>
+                    <td>28</td>
+
+                </tr>
+                <tr>
+                    <td>1285563</td>
+                    <td>Pori Moni</td>
+                    <td>62</td>
+                    <td>65</td>
+                    <td>28</td>
+
+                </tr>
+                <tr>
+                    <td>1285563</td>
+                    <td>Nafiza Kamal</td>
+                    <td>62</td>
+                    <td>65</td>
+                    <td>28</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
 </body>
-<footer>
-    
-</footer>
+
 </html>
